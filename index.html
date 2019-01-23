@@ -15,12 +15,52 @@
       body {
         background-color: dodgerblue;
       }
+      .purple-text{
+        color: hsl(240, 0, 0);
+      }
+      .important{
+        font-weight: bold;
+      }
+      .important:hover {
+        background-color: pink;
+      }
+      #lead-paragraph {
+        color: purple;
+        font-weight: bold;
+      }
+      a[href="https://imagecomics.com/"] {
+        padding: 1rem;
+        background-color: orange;
+      }
+      a[href="http://storm.wmba.com/"] {
+        background-color: blue;
+      }
+      h1 {
+        color: red;
+        border-style: solid;
+        border-width: 1px;
+        border-color: red;
+      }
+      p.important {
+        width: 75%;
+      }
+      img {
+        border-style: dashed;
+        border-width: 3px;
+        border-color: orange;
+        width: 25%;
+      }
     </style>
   </head>
 
   <body>
     <h1>Welcome!</h1>
-    <p>Everything is fine!</p>
+    <p class="purple-text">Everything is fine!</p>
+    <p class="important purple-text">No really, the world is not filled with hopelessness and despair, I promise.</p>
+    <p id="lead-paragraph">The world is happy and sensible place.</p>
+    <a href="http://storm.wmba.com/">National WMBE Champions, Seattle Storms</a>
+    <a href="https://imagecomics.com/">Check out some awesome independence comics!</a>
+    <img src="kitten.jpg" alt="An adorable image of a grey kitten with blue eyes in a brown woven wicker basket.">
   </body>
 
 </html>
